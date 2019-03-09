@@ -1,12 +1,126 @@
-.values{
-    color: rgb(73, 139, 73) !important;
-}
-.buffer{
-    margin: 20px;
-}
-.list-group-item:nth-child(odd){
-    background-color: aliceblue;
-}
-.error{
-    color: red;
-}
+
+body {
+    background-image: url('/images/baseball-gear.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .header{
+    background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  .no-margin {
+    margin: 0 !important;
+  }
+  
+  .white {
+    color: white !important;
+  }
+  
+  .strike-through {
+    text-decoration: line-through;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 8em;
+    max-height: 16em;
+    font-size: 16px;
+  }
+  
+  strong + small {
+      display: block;
+  }
+  
+  input[type=checkbox] {
+    margin-right: 1em;
+  }
+  
+  div.pull-right a {
+    margin-left: 1em;
+  }
+  .todoListMain .theList {
+    color: #333;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  .margin{
+   left: 5px;
+  }
+
+  img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+//   @media screen and (max-width: 1024px) { /* Specific to this particular image */
+//     img.bg {
+//       left: 50%;
+//       margin-left: -512px;   /* 50% */
+//     }
+//   }
+// @import url(https://fonts.googleapis.com/css?family=Rye);
+
+// .banner {
+//   position: absolute;
+//   left: 50%;
+//   display: block;
+//   margin: 100px -200px;
+//   width: 400px;
+//   height: 60px;
+//   border: 1px solid #8a1;
+//   font: normal 30px/60px 'Rye';
+//   text-align: center;
+//   color: #451;
+//   background: #9b2;
+//   border-radius: 4px;
+//   box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+//       				0 6px 10px rgba(0,0,0,.15);
+// }
+
+// .banner::before,
+// .banner::after {
+//   content: '';
+//   position: absolute;
+//   z-index: -1;
+//   left: -70px;
+//   top: 24px;
+//   display: block;
+//   width: 40px;
+//   height: 0px;
+//   border: 30px solid #9b2;
+//   border-right: 20px solid #791;
+//   border-bottom-color: #94b81e;
+//   border-left-color: transparent;
+//   transform: rotate(-5deg);
+// }
+
+// .banner::after {
+//   left: auto;
+//   right: -70px;
+//   border-left: 20px solid #791;
+//   border-right: 30px solid transparent;
+//   transform: rotate(5deg);
+// }

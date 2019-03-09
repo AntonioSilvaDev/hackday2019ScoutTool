@@ -7,9 +7,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='container'>
-        <div className='jumbotron'>
-          <h1 className='display-3'>Baseball Hackday 2019</h1>
-          <p className='lead'>Scouting Report Tool</p>
+        <div className='jumbotron header' >
+          <h1 className='display-3 text-center'>Scout Em'</h1>
+          <h4 className='lead text-center'>Scouting Report Tool</h4>
         </div>
         <div className='row'>
           <SelectedCities />
