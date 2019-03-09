@@ -3,8 +3,9 @@ import CityInformation from './CityInformation';
 
 function mapStoreToProps(store) {
     return {
-        cityInfo: store.search.cityInfo,
-        weatherIcon: store.search.weatherIcon,
+        playerInfo: store.search.playerInfo.player,
+        playerStats: store.search.playerStats,
+        fbCount: store.search.fbCount,
         error: store.search.error
     };
 }
