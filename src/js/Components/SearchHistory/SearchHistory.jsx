@@ -6,7 +6,7 @@ class SearchHistory extends React.Component{
   
         return (
             <div className='card'>
-                <div className='card-header bg-info'>Search History</div>
+                <div className='card-header bg-info'>Comparable Players</div>
                 <div className='card-body'>            
                   <div className='list-group list-group-flush d-flex'>
                   { 

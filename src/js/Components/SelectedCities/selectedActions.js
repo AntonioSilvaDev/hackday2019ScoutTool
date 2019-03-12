@@ -10,6 +10,6 @@ export function updateSearchCity(city){
 export function fetchData(value){
     return {
         type: 'FETCH_DATA',
-        payload: axios.get('/api', {params: { q: `${value}`}})
+        payload: axios.get('/api', {params: { p: `${value}`}})
     }
 }
